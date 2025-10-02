@@ -77,14 +77,3 @@ Testing checklist
 - "Reset" clears the summary to the default message.
 - Docker image builds and site is reachable at http://localhost:8080.
 
-Optional extras (bonus)
------------------------
-- Add a short 90–120s screen capture showing the flow (load → greeting → estimator → theme → Docker run) for extra credit.
-- Add a GitHub Action to auto-publish `public/` to `gh-pages` or to push the Docker image on push to `main` (CI workflow exists in `.github/workflows`).
-
-Contact / Attribution
----------------------
-Generated for: 670667
-
-If you want, I can: add the submission snippet to the top of this README, replace the student ID, or create a ZIP for upload. Tell me which and I’ll commit it.
-
