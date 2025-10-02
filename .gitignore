@@ -1,0 +1,18 @@
+# Node/Python/etc artifacts (not needed here but harmless)
+node_modules/
+venv/
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+*.code-workspace
+
+# Docker
+**/.dockerignore
+
+# Logs
+*.log
