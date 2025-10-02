@@ -55,7 +55,7 @@ function runEstimator(){
 
   console.log({ days, costPerTrip, snacksPerDay, snackPrice, transportWeekly, snacksWeekly, totalWeekly, totalWithSavings });
 
-  const studentIdLine = 'Generated for: <Your Student ID here>'; // TODO: user to replace with their ID
+  const studentIdLine = 'Generated for: 670667';
   const tip = 'Tip: To save 10% try carpooling or reducing snack runs to campus-only days.';
 
   const summary = `Weekly Transport: KSh ${transportWeekly}\nWeekly Snacks: KSh ${snacksWeekly}\n-------------------------------\nWeekly Total: KSh ${totalWeekly}\nIf you cut 10%: KSh ${Math.round(totalWithSavings)}\n\n${tip}\n${studentIdLine}`;
